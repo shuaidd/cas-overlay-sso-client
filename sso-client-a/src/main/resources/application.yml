@@ -1,0 +1,10 @@
+server:
+  ssl:
+    enabled: false
+  port: 8089
+cas:
+  server-login-url: http://127.0.0.1:8080/cas/login
+  server-url-prefix: http://127.0.0.1:8080/cas
+  client-host-url: http://127.0.0.1:8089
+  single-logout:
+    enabled: true
